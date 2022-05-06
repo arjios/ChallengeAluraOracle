@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>ChallengeOneDecodificador2</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Encriptador/Decriptador</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+
+  <body>
+    <header class="header-container">
+            <img class="header-content"
+              src="Assets/Images/logo.png"
+              alt="Logo Alura"
+              width="32"
+              height="48"
+            />
+    </header>
+    <div class="home-container">
+      <div class="page-container">
+        <div class="text-content">
+          <form class="text-label">
+            <p>Digite seu texto</p>
+            <textarea class="text-area" 
+                      type="text" 
+                      id="textoarea" 
+                      name="textodigitado" 
+                      rows="8" 
+                      cols="57">
+            </textarea>
+          </form>
+        </div>
+
+        <div class="inf-content">
+          <img src="Assets/Images/inf.png" alt="inf" width="16" height="16" />
+          <span class="text-inf">Apenas letras minúsculas e sem acento.</span>
+        </div>
+
+        <div class="button-content">
+          <button class="button-cript" id="criptografar" name="cript" type="button">Criptografar</button>
+          <button class="button-decript" id="descriptografar" name="decript" type="button">Descriptografar</button>
+        </div>
+
+      </div>
+
+      <div class="card-container">
+        <div class="image-content">
+          <img
+            src="Assets/Images/high.png"
+            alt="high"
+            width="304"
+            height="333"
+          />
+        </div>
+
+        <div class="image-title">
+          Nenhuma mensagem <br />
+          encontrada
+        </div>
+
+        <div class="image-subtitle">
+          Digite um texto que você deseja <br />criptografar ou descriptografar.
+          <button class="button-copiar" id="copiar" name="copy" type="button">Copiar</button>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </body>
+
+
 </html>

@@ -4,4 +4,124 @@
     margin: 0px;
     font-family: "Inter";
     background-color: #E5E5E5;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.header-content {
+    margin-top: 40px;
+    margin-left: 84px;
+}
+
+textarea {
+    resize: none;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-container {
+    margin: 0px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction:column;
+    margin-top: 80px;
+    margin-left: 240px;
+}
+
+.text-label {
+    display:flex;
+    flex-direction:column;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.inf-content {
+    margin-left: 240px;
+    margin-top: 240px;
+}
+
+.text-inf {
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+}
+
+.button-content {
+    margin-left: 240px;
+    margin-top: 16px;
+    padding-left: 20px;
+}
+
+.button-cript {
+    background: #0A3871;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+.button-decript {
+    background: #D8DFE8;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+.card-container {
+    width: 400px;
+    height: 600px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.image-content {
+    margin-top: 83px;
+    margin-left: 46px;
+    width: 336px;
+    height: 304px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px
+}
+
+.image-title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #343A40;
+}
+
+.image-subtitle {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #343A40;
+}
+
+.button-copiar {
+    margin-top: 20px;
+    margin-left: 16px;
+    background: #FFF;
+    width: 228px;
+    height: 37px;
+    border-color: #0A3871;
+    border-width: 2px;
+    border-radius: 24px;
 }
