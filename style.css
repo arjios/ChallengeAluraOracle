@@ -56,17 +56,19 @@
 }
 
 .button-cript {
-    background: #0A3871;
     width: 328px;
     height: 67px;
     border-radius: 24px;
+    color:#FFF;
+    background-color: #0A3871;
 }
 
 .button-decript {
-    background: #D8DFE8;
     width: 328px;
     height: 67px;
     border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;;
 }
 
 .main-content-card {

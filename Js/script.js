@@ -1,11 +1,7 @@
-<script>
 var chavesVogais = ["e", "i", "a", "o", "u"];
 var chavesCrip = ["\n", "imes", "ai", "ober", "ufat"];
 var resultado = "";
 var texto = "";
-
-var evento = document.querySelector('button');
-var tela = document.querySelector('textarea');
 
 clearTextArea();
 
@@ -48,7 +44,6 @@ function descriptografar(texto) {
     for(var i=0;i<chavesCrip.length;i++) {
       resultado = texto.replace(chavesCrip[i], chavesVogais[i]);
       texto = resultado;
-      console.log(troca + " --- " + resultado);
     }
   }
   return resultado;
@@ -103,4 +98,6 @@ evento2.addEventListener('click', function() {
   buttonDescriptografar();
 });
 
-</script>
+
+var evento = document.querySelector('button');
+var tela = document.querySelector('textarea');
